@@ -186,7 +186,60 @@ img {
 }
 
 .home_img {
-    width: 120px;
-    border-: 50%;
+    width: 300px;
+    border-radius: 10%;
     justify-self: center;
+    margin-bottom: var(--mb-1);
+}
+
+.home_title {
+    font-size: var(--h1-font-size);
+}
+
+.home_profession {
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.home_address {
+    gap: 1rem;
+}
+
+.home_information {
+    display: flex;
+    align-items: center;
+    font-size: var(--small-font-size);
+}
+
+.home_icon {
+    font-size: 1.2rem;
+    margin-right: 0.25rem;
+}
+
+.social_container {
+    grid: max-content;
+    gap: 1rem;
+}
+
+.social_link {
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+}
+
+.social_icon {
+    font-size: 1.2rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.profile_description {
+    text-align: justify;
+    text-indent: 1.5rem;
+}
+
+.education_content,
+.experience_content {
+    
 }
