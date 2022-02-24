@@ -268,4 +268,49 @@ img {
     background-color: var(--text-color-light);
     transform: translate(7px);
 }
-/* continuar em 2h15min da aula
+
+.education_data,
+.experience_data {
+    gap: .5rem;
+}
+
+.education_title,
+.experience_title {
+    font-size: var(--h3-font-size);
+}
+
+.experience_description {
+    text-align: justify;
+}
+
+.experience_company,
+.education_studies {
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+}
+
+.education_year {
+    font-size: var(--small-font-size);
+}
+
+.skills_content { 
+    grid-template-columns:  repeat(2,1fr);
+    /* display: flex;
+    column-count: 2;  */
+    gap:0;
+}
+
+.skills_name {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-3);
+}
+
+.skills_circle {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    margin-right: 0.75rem;
+}
