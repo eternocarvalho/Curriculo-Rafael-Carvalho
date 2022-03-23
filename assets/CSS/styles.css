@@ -199,7 +199,7 @@ img {
 
 .home_profession {
     font-size: var(--normal-font-size);
-    margin-bottom: var(--mb-1);
+    margin-bottom: ;
 }
 
 .home_address {
@@ -241,7 +241,7 @@ img {
 }
 
 .education_content,
-.exerience_content {
+.experience_content {
     display: flex;
 }
 
@@ -290,11 +290,15 @@ img {
     color: var(--title-color);
 }
 
+.experience_link {
+    color: var(--text-color)
+}
+
 .education_year {
     font-size: var(--small-font-size);
 }
 
-.skills-
+
 
 .skills_content { 
     grid-template-columns:  repeat(2,1fr);
@@ -434,6 +438,10 @@ img {
 
     .home_container {
         gap: 1.5rem;
+    }
+
+    .interests_container {
+        grid-template-columns: repeat(4, max-content);
     }
 
 }
