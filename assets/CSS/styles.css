@@ -297,18 +297,22 @@ img {
     transform: scale(1.5);
 } */
 
-.experience_title a:link {
+/* .experience_title a:link {
     color: green;
-  }
+  } */
   
   /* visited link */
   .certificate_title a:visited, .experience_title a:visited {
-    color: blue;
+    color: var(--text-color);
   }
   
   /* mouse over link */
   .certificate_title a:hover,.experience_title a:hover {
     color: red;
+  }
+
+  .certificate_icons, .experience_icons {
+      font-size: 17px;
   }
 
 .education_year {
