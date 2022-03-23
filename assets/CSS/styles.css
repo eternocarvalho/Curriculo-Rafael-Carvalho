@@ -291,8 +291,25 @@ img {
 }
 
 .experience_link {
-    color: var(--text-color)
+    color: var(--text-color);
 }
+/* experience_title a:hover {
+    transform: scale(1.5);
+} */
+
+.experience_title a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  .certificate_title a:visited, .experience_title a:visited {
+    color: blue;
+  }
+  
+  /* mouse over link */
+  .certificate_title a:hover,.experience_title a:hover {
+    color: red;
+  }
 
 .education_year {
     font-size: var(--small-font-size);
